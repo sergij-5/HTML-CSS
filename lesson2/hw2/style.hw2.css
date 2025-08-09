@@ -28,6 +28,7 @@ h1{
     align-items: center;
     flex-direction: column;
     gap: 20px;
+    transition: 1s;
 }
 .card img{
     width: 80%;
@@ -35,4 +36,8 @@ h1{
 .card p{
     font-size:  25px;
     font-weight: 600;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 1s;
 }
