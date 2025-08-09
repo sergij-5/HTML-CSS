@@ -41,3 +41,14 @@ h1{
     transform: scale(1.1);
     transition: 1s;
 }
+.card a{
+    font-size:  25px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    transition: 4s;
+}
+.card:hover a{
+    color: #e8ca20;
+    transition: 0.7s;
+}
