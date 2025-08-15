@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+#section-home{
+    background-color: #e35d5d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:  column;
+    gap: 60px;
+}
+#section-about{
+    background-color: #828fe1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:  column;
+    gap: 60px;
+}
+#section-info{
+    background-color: #aed87a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:  column;
+    gap: 60px;
+}
+section{
+    height: 80vh;
+    text-align: center;
+}
+section p{
+    width: 80%;
+}
+section a{
+    font-size: 45px;
+}
