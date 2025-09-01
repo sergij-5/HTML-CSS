@@ -1,0 +1,76 @@
+.wrapper{
+    width: 100%;
+    display: flex;
+    margin-top: 250px;
+
+}
+.airship{
+    width: 300px;
+    height: 230px;
+    animation:  airship 7s linear  infinite alternate;
+}
+@keyframes airship {
+    from{
+        translate: 500px;
+    }
+    20%{
+        translate: 0;
+    }
+    40%{
+        translate: -500px;
+    }
+    60%{
+        translate: -1000px;
+    }
+    80%{
+        translate: -1500px;
+    }
+    100%{
+        translate: -2000px;
+    }
+}
+.airship2{
+    width: 300px;
+    height: 230px;
+    animation:  airship2 7s linear infinite alternate;
+}
+@keyframes airship2 {
+    from{
+        translate: -500px;
+    }
+    20%{
+        translate: 0;
+    }
+    40%{
+        translate: 500px;
+    }
+    60%{
+        translate: 1000px;
+    }
+    80%{
+        translate: 1500px;
+    }
+    100%{
+        translate: 2000px;
+    }
+}
+.cloud{
+    width: 250px;
+    height: 230px;
+    animation:  cloud 5s linear infinite alternate;
+}
+@keyframes cloud{
+    from{
+        transform: scaleX(1.1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1.3);
+    }
+}
+
+
+
+
