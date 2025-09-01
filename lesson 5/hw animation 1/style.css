@@ -13,19 +13,19 @@
 }
 @keyframes sun {
     from{
-        transform:  translate(-500px,300px);
+        transform:  translate(-500px,300px) rotate(50grad);
     }
     25%{
-        transform:  translate(-250px,100px);
+        transform:  translate(-250px,100px) rotate(100grad);
     }
     50%{
-        transform:  translate(0px,0px);
+        transform:  translate(0px,0px) rotate(150grad);
     }
     75%{
-        transform:  translate(250px,100px);
+        transform:  translate(250px,100px) rotate(200grad);
     }
     100%{
-        transform:  translate(500px,300px);
+        transform:  translate(500px,300px) rotate(250grad);
     }
 
 }
