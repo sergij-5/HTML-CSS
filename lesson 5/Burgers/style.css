@@ -10,12 +10,13 @@ body{
 .w-1340{
     width: 1340px;
     margin: 0 auto;
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*flex-direction:  column;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:  column;
 }
 nav{
+    width: 100%;
     padding-top: 36px;
     display: flex;
     justify-content: flex-end;
@@ -58,32 +59,25 @@ ul a{
     line-height: 88.896%; /* 95.198px */
     letter-spacing: -2.142px;
     text-transform: uppercase;
-    margin: 74px auto 33px auto;  /*текст выравнивается по центру*/
-
+    margin: 74px 0 33px 0;
 }
 .header-img{
     display: block;
-    margin: 0 auto;
 }
-.green-block{
+.section__about-burger{
     display: flex;
-
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
     width: 1340px;
     height: 369px;
     flex-shrink: 0;
     border-radius: 30px;
     border: 4px solid #1E1E1E;
     background: #D1EF53;
-    margin: 32px auto 64px auto;
+    margin: 32px 0 64px 0;
 }
-.green-block-left{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    margin: 98px 0 85px 109px;
-}
-.green-block-left h2{
+.section__about-burger h2{
     width: 533px;
     color: #1E1E1E;
     font-family: "Bowlby One", sans-serif;
@@ -94,14 +88,7 @@ ul a{
     letter-spacing: -1.4px;
     text-transform: uppercase;
 }
-.green-block-right{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction:  column;
-    margin: 100px 149px 100px 28px;
-}
-.green-block-right h3{
+.section__about-burger p{
     width: 521px;
     color: #1E1E1E;
     font-family: Inter, sans-serif;
@@ -111,11 +98,11 @@ ul a{
     line-height: 139.896%; /* 33.575px */
     letter-spacing: -0.48px;
 }
-.green-block-button{
+
+.section__about-burger button{
     margin-top: 34px;
     width: 176px;
     height: 60px;
-    flex-shrink: 0;
     border: 4px solid #1E1E1E;
     background: #E9E3DC;
 
@@ -135,31 +122,26 @@ ul a{
     display: flex;
     gap:  40px;
 }
-.img-21{
-    margin: 64px auto 64px auto;
+.img-cafe{
+    margin: 64px 0 64px 0;
 }
-h2{
+.bottom-h2{
     width: 895px;
     color: #E9E3DC;
     text-align: center;
-    font-family: "Bowlby One" , sans-serif;
+    font-family: "Bowlby One", sans-serif;
     font-size: 70px;
     font-style: normal;
     font-weight: 400;
     line-height: 101.896%; /* 71.328px */
     text-transform: uppercase;
-    margin: 0 auto 33px auto;
-
 }
-button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.green-button{
     width: 196px;
     height: 60px;
     flex-shrink: 0;
     background: #D1EF53;
-
+    border: none;
     color: #1E1E1E;
     text-align: center;
     font-family: "Bowlby One" , sans-serif;
@@ -167,8 +149,7 @@ button{
     font-weight: 400;
     line-height: 96.896%; /* 17.441px */
     text-transform: uppercase;
-
-    margin: 0 auto 36px auto;
+    margin: 33px 0 36px 0;
 }
 
 
