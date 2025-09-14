@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            height: 100vh;
+            margin: 0;
+            background-color: darkcyan;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .form-registration{
+            height: 50vh;
+            width: 40vw;
+            background-color: white;
+            border-radius: 20px;
+
+        }
+        .form-registration div:nth-child(1){
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 139, 139, 0.23);
+
+        }
+        .form-registration form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+         input[type="text"],
+         input[type="password"] {
+            width: 380px;
+            height: 30px;
+            margin: 15px;
+        }
+        .form-registration>form>div{
+            width: 380px;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 15px;
+        }
+        form input[type='submit'] {
+            width: 90px;
+            height: 28px;
+            border: 2px solid grey;
+            border-radius: 8px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+<div class="form-registration">
+    <div>
+        <h1>Вхід в особистий кабінет</h1>
+    </div>
+
+    <form>
+        <label><input type="text" name="text" placeholder="Логін або email"></label>
+        <label><input type="password" name="password" placeholder="Пароль"></label>
+
+        <div>
+            <label>Запам'ятати мене<input type="checkbox" name="remember"></label>
+            <input type="submit" value="Вхід">
+        </div>
+    </form>
+
+
+</div>
+
+</body>
+</html>
