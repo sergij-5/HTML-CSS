@@ -115,5 +115,124 @@ header nav a{
     justify-content: center;
     align-items: center;
 }
-
+/*---------------------------- section "Lorem-ipsum" -----------------------------*/
+.lorem-ipsum{
+    height: 764px;
+    background: #071341;
+    padding: 50px 0 152px 0;
+}
+.lorem__width{
+    width: 1153px;
+    height: 100%;
+    display: flex;
+    flex-direction:  column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.icons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+.icon div:nth-child(1){
+    width: 56.144px;
+    height: 56px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon:nth-child(1) div:nth-child(1){
+     background: #FF6853;
+ }
+.icon:nth-child(2) div:nth-child(1){
+     background: #FF537C;
+ }
+.icon:nth-child(3) div:nth-child(1){
+     background: #80D2C4;
+ }
+.icon:nth-child(4) div:nth-child(1){
+    background: #3F50E7;
+ }
+.icon:nth-child(5) div:nth-child(1){
+     background: #95CB7C;
+ }
+.icon h4{
+    width: 38.098px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+.icon p{
+    width: 101.26px;
+    color:  #8E88C1;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.8px;
+}
+.lorem-ipsum h2{
+    width: 1074px;
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px; /* 116.667% */
+    margin: 50px 0;
+}
+.lorem-ipsum p{
+    color: #8E88C1;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.8px;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    margin-top: 50px;
+}
+.card{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 209px;
+    height: 206px;
+    border-radius: 8px;
+    border: 2px solid  #8E88C1;
+}
+iframe{
+    width: 100%;
+    height: 664px;
+}
+/*----------------- footer ------------------------*/
+footer{
+    width: 100%;
+    height: 94px;
+    background: #071341;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    width: 96px;
+    height: 24.039px;
+    flex-shrink: 0;color: #FFF;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 200%; /* 24px */
+}
 
