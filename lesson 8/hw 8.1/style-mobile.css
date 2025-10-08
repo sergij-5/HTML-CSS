@@ -1,0 +1,19 @@
+@media screen and (max-width: 480px) {
+
+    .items-one {
+        width: 343px;
+        padding: 32px 16px 0 16px;
+        gap: 40px;
+    }
+
+    .items-two {
+        width: 343px;
+        padding: 40px 16px 32px 16px;
+        gap: 40px;
+    }
+
+    .item {
+        width: 100%;
+    }
+
+}

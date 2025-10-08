@@ -43,7 +43,6 @@ body{
     letter-spacing: 1.5px;
     text-transform: uppercase;
 }
-img{
-    width: 372px;
-    height: 279px;
+.item img{
+    width: 100%;
 }
